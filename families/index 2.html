@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>herbs by family - materia medica</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">materia medica</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">herbs</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../herb_index/" class="dropdown-item">herb index</a>
+</li>
+                                    
+<li>
+    <a href="../modules/" class="dropdown-item">herbs by module</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">herbs by family</a>
+</li>
+                                    
+<li>
+    <a href="../actions/" class="dropdown-item">herbs by action</a>
+</li>
+                                    
+<li>
+    <a href="../systems/" class="dropdown-item">herbs by system</a>
+</li>
+                                    
+<li>
+    <a href="../energetics/" class="dropdown-item">herbs by energetics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">project</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../intro/" class="dropdown-item">introduction</a>
+</li>
+                                    
+<li>
+    <a href="../how_to/" class="dropdown-item">how to use this book</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">dandelion</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/dandelion/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/dandelion/simple_%28dandelion%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/dandelion/filter_i/" class="dropdown-item">filter i</a>
+</li>
+            
+<li>
+    <a href="../recipes/dandelion/capricornus/" class="dropdown-item">capricornus</a>
+</li>
+            
+<li>
+    <a href="../recipes/dandelion/filter_ii/" class="dropdown-item">filter ii</a>
+</li>
+            
+<li>
+    <a href="../recipes/dandelion/taproot/" class="dropdown-item">taproot</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">lavender</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/lavender/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/lavender/simple_%28lavender%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/lavender/to_the_clearing/" class="dropdown-item">to the clearing</a>
+</li>
+            
+<li>
+    <a href="../recipes/lavender/mountain_air/" class="dropdown-item">mountain air</a>
+</li>
+            
+<li>
+    <a href="../recipes/lavender/eraser/" class="dropdown-item">eraser</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">calendula</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/calendula/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/calendula/simple_%28calendula%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/calendula/venus_in_leo/" class="dropdown-item">venus in leo</a>
+</li>
+            
+<li>
+    <a href="../recipes/calendula/virgo_toner/" class="dropdown-item">virgo toner</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">hawthorn</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/hawthorn/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/hawthorn/simple_%28hawthorn%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/hawthorn/daydream/" class="dropdown-item">daydream</a>
+</li>
+            
+<li>
+    <a href="../recipes/hawthorn/scorpius/" class="dropdown-item">scorpius</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">mugwort</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/mugwort/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/mugwort/simple_%28mugwort%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/mugwort/saturn_in_pisces/" class="dropdown-item">saturn in pisces</a>
+</li>
+            
+<li>
+    <a href="../recipes/mugwort/jupiter_in_virgo/" class="dropdown-item">jupiter in virgo</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">uva ursi</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/uva_ursi/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/uva_ursi/simple_%28uva_ursi%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/uva_ursi/innerarmor/" class="dropdown-item">innerarmor</a>
+</li>
+            
+<li>
+    <a href="../recipes/uva_ursi/via_dolorosa/" class="dropdown-item">via dolorosa</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">mullein</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/mullein/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/mullein/simple_%28mullein%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/mullein/seasons_change/" class="dropdown-item">seasons change</a>
+</li>
+            
+<li>
+    <a href="../recipes/mullein/gemini_toner/" class="dropdown-item">gemini toner</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">hops</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/hops/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/hops/simple_%28hops%29/" class="dropdown-item">simple</a>
+</li>
+            
+<li>
+    <a href="../recipes/hops/oneiros/" class="dropdown-item">oneiros</a>
+</li>
+            
+<li>
+    <a href="../recipes/hops/endymion/" class="dropdown-item">endymion</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">reishi</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../recipes/reishi/" class="dropdown-item">overview</a>
+</li>
+            
+<li>
+    <a href="../recipes/reishi/simple_%28reishi_decoction%29/" class="dropdown-item">simple (decoction)</a>
+</li>
+            
+<li>
+    <a href="../recipes/reishi/simple_%28reishi_tincture%29/" class="dropdown-item">simple (tincture)</a>
+</li>
+            
+<li>
+    <a href="../recipes/reishi/full_tonic/" class="dropdown-item">full tonic</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../recipes_by_herb/" class="dropdown-item">recipes by herb</a>
+</li>
+                                    
+<li>
+    <a href="../recipes_by_prep/" class="dropdown-item">recipes by preparation</a>
+</li>
+                                    
+<li>
+    <a href="../recipes_by_system/" class="dropdown-item">recipes by system</a>
+</li>
+                                    
+<li>
+    <a href="../recipes_by_witchcraft/" class="dropdown-item">recipes by witchcraft</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../modules/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../actions/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#families" class="nav-link">families</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#adoxaceae" class="nav-link">Adoxaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#apiaceae" class="nav-link">Apiaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#arecaceae" class="nav-link">Arecaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#asparagaceae" class="nav-link">Asparagaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#asteraceae" class="nav-link">Asteraceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#berberidaceae" class="nav-link">Berberidaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#boraginaceae" class="nav-link">Boraginaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#cannabaceae" class="nav-link">Cannabaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#caprifoliaceae" class="nav-link">Caprifoliaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#cupressaceae" class="nav-link">Cupressaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#equisetaceae" class="nav-link">Equisetaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ericaceae" class="nav-link">Ericaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fabaceae" class="nav-link">Fabaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ganodermataceae" class="nav-link">Ganodermataceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ginkgoaceae" class="nav-link">Ginkgoaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#lamiaceae" class="nav-link">Lamiaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#lauraceae" class="nav-link">Lauraceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#malvaceae" class="nav-link">Malvaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#myrtaceae" class="nav-link">Myrtaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#papaveraceae" class="nav-link">Papaveraceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#passifloraceae" class="nav-link">Passifloraceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#poaceae" class="nav-link">Poaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#polygonaceae" class="nav-link">Polygonaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#rosaceae" class="nav-link">Rosaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#scrophulariaceae" class="nav-link">Scrophulariaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#smilaceae" class="nav-link">Smilaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#solanaceae" class="nav-link">Solanaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#urticaceae" class="nav-link">Urticaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#verbenaceae" class="nav-link">Verbenaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#zingiberaceae" class="nav-link">Zingiberaceae</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="families">families</h1>
+<h2 id="adoxaceae"><a href="../families/adoxaceae">Adoxaceae</a></h2>
+<ul>
+<li><a href="../air/sambucus_nigra/"><em>Sambucus nigra</em> - elder - saúco</a></li>
+<li><a href="../water/viburnum_opulus/"><em>Viburnum opulus</em> - crampbark - barbatilla</a></li>
+</ul>
+<p><br></p>
+<h2 id="apiaceae"><a href="../families/apiaceae">Apiaceae</a></h2>
+<ul>
+<li><a href="../water/angelica_sinensis/"><em>Angelica sinensis</em> - dong quai - dong quai</a></li>
+<li><a href="../%C3%A6ther/centella_asiatica/"><em>Centella asiatica</em> - gotu kola - gotu kola</a></li>
+<li><a href="../fire/coriandrum_sativum/"><em>Coriandrum sativum</em> - coriander - coriandro</a></li>
+<li><a href="../%C3%A6ther/cuminum_cyminum/"><em>Cuminum cyminum</em> - cumin - comino</a></li>
+<li><a href="../fire/foeniculum_vulgare/"><em>Foeniculum vulgare</em> - fennel - hinojo</a></li>
+</ul>
+<p><br></p>
+<h2 id="arecaceae"><a href="../families/arecaceae">Arecaceae</a></h2>
+<ul>
+<li><a href="../water/serenoa_repens/"><em>Serenoa repens</em> - saw palmetto - palmito salvaje</a></li>
+</ul>
+<p><br></p>
+<h2 id="asparagaceae"><a href="../families/asparagaceae">Asparagaceae</a></h2>
+<ul>
+<li><a href="../water/asparagus_racemosus/"><em>Asparagus racemosus</em> - shatavari - satavar</a></li>
+</ul>
+<p><br></p>
+<h2 id="asteraceae"><a href="../families/asteraceae">Asteraceae</a></h2>
+<ul>
+<li><a href="../water/achillea_millefolium/"><em>Achillea millefolium</em> - yarrow - milenrama</a></li>
+<li><a href="../earth/arctium_lappa/"><em>Arctium lappa</em> - burdock - bardana</a></li>
+<li><a href="../fire/artemisia_vulgaris/"><em>Artemisia vulgaris</em> - mugwort - artemisa</a></li>
+<li><a href="../earth/calendula_officinalis/"><em>Calendula officinalis</em> - calendula - caléndula</a></li>
+<li><a href="../fire/cynara_scolymus/"><em>Cynara scolymus</em> - artichoke - alcachofa</a></li>
+<li><a href="../earth/echinacea_spp/"><em>Echinacea</em> spp. - echinacea - equinácea</a></li>
+<li><a href="../air/inula_helenium/"><em>Inula helenium</em> - elecampane - elecampana</a></li>
+<li><a href="../earth/matricaria_chamomilla/"><em>Matricaria chamomilla</em> - chamomile - manzanilla</a></li>
+<li><a href="../air/solidago_nemoralis/"><em>Solidago nemoralis</em> - goldenrod - vara de oro</a></li>
+<li><a href="../earth/taraxacum_officinale/"><em>Taraxacum officinale</em> - dandelion - diente de león</a></li>
+</ul>
+<p><br></p>
+<h2 id="berberidaceae"><a href="../families/berberidaceae">Berberidaceae</a></h2>
+<ul>
+<li><a href="../fire/berberis_aquifolium/"><em>Berberis aquifolium</em> - Oregon grape - uva de Oregón</a></li>
+<li><a href="../earth/berberis_vulgaris/"><em>Berberis vulgaris</em> - barberry - agracejo</a></li>
+</ul>
+<p><br></p>
+<h2 id="boraginaceae"><a href="../families/boraginaceae">Boraginaceae</a></h2>
+<ul>
+<li><a href="../earth/symphytum_officinale/"><em>Symphytum officinale</em> - comfrey - consuelda</a></li>
+</ul>
+<p><br></p>
+<h2 id="cannabaceae"><a href="../families/cannabaceae">Cannabaceae</a></h2>
+<ul>
+<li><a href="../air/humulus_lupulus/"><em>Humulus lupulus</em> - hops - lúpulo</a></li>
+</ul>
+<p><br></p>
+<h2 id="caprifoliaceae"><a href="../families/caprifoliaceae">Caprifoliaceae</a></h2>
+<ul>
+<li><a href="../air/valeriana_officinalis/"><em>Valeriana officinalis</em> - valerian - valeriana</a></li>
+</ul>
+<p><br></p>
+<h2 id="cupressaceae"><a href="../families/cupressaceae">Cupressaceae</a></h2>
+<ul>
+<li><a href="../water/juniperus_communis/"><em>Juniperus communis</em> - juniper - enebro</a></li>
+</ul>
+<p><br></p>
+<h2 id="equisetaceae"><a href="../families/equisetaceae">Equisetaceae</a></h2>
+<ul>
+<li><a href="../water/equisetum_arvense/"><em>Equisetum arvense</em> - horsetail - cola de caballo</a></li>
+</ul>
+<p><br></p>
+<h2 id="ericaceae"><a href="../families/ericaceae">Ericaceae</a></h2>
+<ul>
+<li><a href="../water/arctostaphylos_uva-ursi/"><em>Arctostaphylos uva-ursi</em> - uva ursi - gayuba</a></li>
+</ul>
+<p><br></p>
+<h2 id="fabaceae"><a href="../families/fabaceae">Fabaceae</a></h2>
+<ul>
+<li><a href="../water/albizia_julibrissin/"><em>Albizia julibrissin</em> - mimosa - árbol de la seda</a></li>
+<li><a href="../water/astragalus_mongholicus/"><em>Astragalus mongholicus</em> - astragalus - astragalus</a></li>
+<li><a href="../air/clitoria_ternatea/"><em>Clitoria ternatea</em> - butterfly pea - conchita azul</a></li>
+<li><a href="../earth/glycyrrhiza_glabra/"><em>Glycyrrhiza glabra</em> - licorice - regaliz</a></li>
+<li><a href="../water/trifolium_pratense/"><em>Trifolium pratense</em> - red clover - trébol rojo</a></li>
+<li><a href="../%C3%A6ther/trigonella_foenum-graecum/"><em>Trigonella foenum-graecum</em> - fenugreek - fenogreco</a></li>
+</ul>
+<p><br></p>
+<h2 id="ganodermataceae"><a href="../families/ganodermataceae">Ganodermataceae</a></h2>
+<ul>
+<li><a href="../%C3%A6ther/ganoderma_sichuanense/"><em>Ganoderma sichuanense</em> - reishi - reishi</a></li>
+</ul>
+<p><br></p>
+<h2 id="ginkgoaceae"><a href="../æther/ginkgo_biloba/">Ginkgoaceae</a></h2>
+<ul>
+<li><a href="../%C3%A6ther/ginkgo_biloba/"><em>Ginkgo biloba</em> - ginkgo - ginkgo</a></li>
+</ul>
+<p><br></p>
+<h2 id="lamiaceae"><a href="../families/lamiaceae">Lamiaceae</a></h2>
+<ul>
+<li><a href="../earth/lavandula_spp/"><em>Lavandula</em> spp. - lavender - lavanda</a></li>
+<li><a href="../fire/leonurus_cardiaca/"><em>Leonurus cardiaca</em> - motherwort - agripalma</a></li>
+<li><a href="../air/marrubium_vulgare/"><em>Marrubium vulgare</em> - horehound - marrubio</a></li>
+<li><a href="../earth/melissa_officinalis/"><em>Melissa officinalis</em> - lemon balm - toronjil</a></li>
+<li><a href="../earth/mentha_x_piperita/"><em>Mentha</em> &times; <em>piperita</em> - peppermint - menta piperita</a></li>
+<li><a href="../fire/nepeta_cataria/"><em>Nepeta cataria</em> - catnip - gatera</a></li>
+<li><a href="../%C3%A6ther/ocimum_tenuiflorum/"><em>Ocimum tenuiflorum</em> - tulsi - albahaca morada</a></li>
+<li><a href="../%C3%A6ther/salvia_officinalis/"><em>Salvia officinalis</em> - sage - salvia</a></li>
+<li><a href="../%C3%A6ther/salvia_rosmarinus/"><em>Salvia rosmarinus</em> - rosemary - romero</a></li>
+<li><a href="../air/scutellaria_lateriflora/"><em>Scutellaria lateriflora</em> - skullcap - casida</a></li>
+<li><a href="../water/vitex_agnus-castus/"><em>Vitex agnus-castus</em> - vitex - sauzgatillo</a></li>
+</ul>
+<p><br></p>
+<h2 id="lauraceae"><a href="../families/lauraceae">Lauraceae</a></h2>
+<ul>
+<li><a href="../fire/cinnamomum_verum/"><em>Cinnamomum verum</em> - cinnamon - canela</a></li>
+<li><a href="../%C3%A6ther/laurus_nobilis/"><em>Laurus nobilis</em> - bay laurel - laurel</a></li>
+</ul>
+<p><br></p>
+<h2 id="malvaceae"><a href="../families/malvaceae">Malvaceae</a></h2>
+<ul>
+<li><a href="../fire/althaea_officinalis/"><em>Althaea officinalis</em> - marshmallow - malvavisco</a></li>
+<li><a href="../fire/tilia_spp/"><em>Tilia</em> spp. - linden - tilos</a></li>
+</ul>
+<p><br></p>
+<h2 id="myrtaceae"><a href="../families/myrtaceae">Myrtaceae</a></h2>
+<ul>
+<li><a href="../%C3%A6ther/syzygium_aromaticum/"><em>Syzygium aromaticum</em> - clove - clavo</a></li>
+</ul>
+<p><br></p>
+<h2 id="papaveraceae"><a href="../families/papaveraceae">Papaveraceae</a></h2>
+<ul>
+<li><a href="../air/eschscholzia_californica/"><em>Eschscholzia californica</em> - Califonia poppy - amapola de California</a></li>
+</ul>
+<p><br></p>
+<h2 id="passifloraceae"><a href="../families/passifloraceae">Passifloraceae</a></h2>
+<ul>
+<li><a href="../air/passiflora_incarnata/"><em>Passiflora incarnata</em> - passionflower - pasionaria</a></li>
+<li><a href="../water/turnera_diffusa/"><em>Turnera diffusa</em> - damiana - damiana</a></li>
+</ul>
+<p><br></p>
+<h2 id="poaceae"><a href="../families/poaceae">Poaceae</a></h2>
+<ul>
+<li><a href="../air/avena_sativa/"><em>Avena sativa</em> - oat - avena</a></li>
+</ul>
+<p><br></p>
+<h2 id="polygonaceae"><a href="../families/polygonaceae">Polygonaceae</a></h2>
+<ul>
+<li><a href="../fire/rumex_crispus/"><em>Rumex crispus</em> - yellow dock - romaza crespa</a></li>
+</ul>
+<p><br></p>
+<h2 id="rosaceae"><a href="../families/rosaceae">Rosaceae</a></h2>
+<ul>
+<li><a href="../fire/crataegus_spp/"><em>Crataegus</em> spp. - hawthorn - espino</a></li>
+<li><a href="../air/prunus_serotina/"><em>Prunus serotina</em> - wild cherry - cerezo criollo</a></li>
+<li><a href="../earth/rosa_spp/"><em>Rosa</em> spp. - rose - rosa</a></li>
+<li><a href="../water/rubus_idaeus/"><em>Rubus idaeus</em> - red raspberry - frambuesa</a></li>
+</ul>
+<p><br></p>
+<h2 id="scrophulariaceae"><a href="../families/scrophulariaceae">Scrophulariaceae</a></h2>
+<ul>
+<li><a href="../air/verbascum_thapsus/"><em>Verbascum thapsus</em> - mullein - verbasco</a></li>
+</ul>
+<p><br></p>
+<h2 id="smilaceae"><a href="../æther/smilax_spp/">Smilaceae</a></h2>
+<ul>
+<li><a href="../%C3%A6ther/smilax_spp/"><em>Smilax</em> spp. - sarsaparilla - zarzaparilla</a></li>
+</ul>
+<p><br></p>
+<h2 id="solanaceae"><a href="../families/solanaceae">Solanaceae</a></h2>
+<ul>
+<li><a href="../%C3%A6ther/withania_somnifera/"><em>Withania somnifera</em> - ashwagandha - bufera</a></li>
+</ul>
+<p><br></p>
+<h2 id="urticaceae"><a href="../families/urticaceae">Urticaceae</a></h2>
+<ul>
+<li><a href="../earth/urtica_dioica/"><em>Urtica dioica</em> - nettle - ortiga mayor</a></li>
+</ul>
+<p><br></p>
+<h2 id="verbenaceae"><a href="../families/verbenaceae">Verbenaceae</a></h2>
+<ul>
+<li><a href="../air/verbena_spp/"><em>Verbena</em> spp. - blue vervain - verbena del pantano</a></li>
+</ul>
+<p><br></p>
+<h2 id="zingiberaceae"><a href="../families/zingiberaceae">Zingiberaceae</a></h2>
+<ul>
+<li><a href="../fire/curcuma_longa/"><em>Curcuma longa</em> - turmeric - cúrcuma</a></li>
+<li><a href="../fire/zingiber_officinale/"><em>Zingiber officinale</em> - ginger - jengibre</a></li>
+</ul>
+<p><br></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
